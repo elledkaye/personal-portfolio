@@ -16,22 +16,20 @@ export default function About() {
               <div>
                 <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text mb-6">About Me</h1>
                 <p className="text-gray-300 mb-6">
-                  I'm a passionate full-stack developer with 5 years of experience in building web applications.
-                  My journey in software development started when I built my first website in college, and I've
-                  been hooked ever since.
+                  I'm a passionate ....
                 </p>
                 <p className="text-gray-300 mb-6">
-                  I specialize in modern web technologies and have a strong foundation in both frontend and
-                  backend development. I love solving complex problems and creating intuitive user experiences.
+                  I enoy modern web technologies and have a strong foundation in b....
+            
                 </p>
                 <div className="space-y-4">
                   <h2 className="text-2xl font-semibold text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text">Experience</h2>
                   <div className="border-l-4 border-blue-500 pl-4">
-                    <h3 className="font-semibold text-white">Senior Developer at Tech Corp</h3>
+                    <h3 className="font-semibold text-white">Place of work 1</h3>
                     <p className="text-gray-400">2020 - Present</p>
                   </div>
                   <div className="border-l-4 border-purple-500 pl-4">
-                    <h3 className="font-semibold text-white">Full Stack Developer at StartUp Inc</h3>
+                    <h3 className="font-semibold text-white">Place of work 2</h3>
                     <p className="text-gray-400">2018 - 2020</p>
                   </div>
                 </div>
