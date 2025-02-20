@@ -8,7 +8,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000"
+                  src=""
                   alt="Profile"
                   className="rounded-lg shadow-md w-full h-auto border border-gray-700"
                 />
