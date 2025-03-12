@@ -14,19 +14,11 @@ export default function Projects() {
       title: 'Band Website',
       description: 'A static website built with Javascript, HTML, CSS and Bootstrap. Please ask if you would like to see the github repo for this project.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000',
-      github: 'https://github.com',
+      
       demo: 'https://http://longtoothrocks.com/',
       tags: ['HTML', 'Javascript', 'Bootstrap', 'CSS', 'GoogleSheets']
     },
-    {
-      title: 'Game landing page',
-      description: 'Landing page for a game',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      tags: ['React', 'OpenWeather API', 'Tailwind CSS']
-    },
-
+   
     {
       title:'Blog',
       description: 'Real-time weather monitoring with interactive maps',
