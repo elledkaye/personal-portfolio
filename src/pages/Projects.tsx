@@ -4,23 +4,23 @@ export default function Projects() {
   const projects = [
     {
       title: 'Grocerylist App',
-      description: 'A full-stack e-commerce solution built with React and Node.js',
+      description: 'A simple grocery list app built with SwfitUI and Firebase',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
       github: 'https://github.com',
       demo: 'https://demo.com',
-      tags: ['React', 'Node.js', 'PostgreSQL']
+      tags: ['SwiftUI', 'Firebase']
     },
     {
       title: 'Band Website',
-      description: 'A collaborative task management tool with real-time updates',
+      description: 'A static website built with Javascript, HTML, CSS and Bootstrap. Please ask if you would like to see the github repo for this project.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000',
       github: 'https://github.com',
-      demo: 'https://demo.com',
-      tags: ['React', 'Socket.io', 'Express']
+      demo: 'https://http://longtoothrocks.com/',
+      tags: ['HTML', 'Javascript', 'Bootstrap', 'CSS', 'GoogleSheets']
     },
     {
       title: 'Game landing page',
-      description: 'Real-time weather monitoring with interactive maps',
+      description: 'Landing page for a game',
       image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000',
       github: 'https://github.com',
       demo: 'https://demo.com',

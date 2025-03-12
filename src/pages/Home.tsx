@@ -9,7 +9,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#60a5fa] to-[#a855f7] blur-[100px] opacity-10"></div>
           <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl relative">
             <span className="block bg-gradient-to-r from-[#60a5fa] to-[#a855f7] text-transparent bg-clip-text">Hi, I'm</span>
-            <span className="block text-transparent bg-gradient-to-r from-[#a855f7] to-[#ec4899] bg-clip-text">Danielle Kaye</span>
+            <span className="block text-transparent bg-gradient-to-r from-[#a855f7] to-[#ec4899] bg-clip-text">Danie</span>
           </h1>
           
           <p className="text-xl text-gray-400 mt-2 font-medium">Software test engineer, freelancer and so much more</p>
@@ -31,12 +31,12 @@ export default function Home() {
 
         <div className="mt-24 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-[#a855f7] to-[#60a5fa] blur-[100px] opacity-5"></div>
-          <h2 className="text-3xl font-bold text-center mb-16 text-white">Featured Skills</h2>
+          <h2 className="text-3xl font-bold text-center mb-16 text-white">Technical Skills</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: 'Software Testing', description: '.....' },
-              { title: 'Web/Mobile Development', description: '.....' },
-              { title: 'Automation', description: '....' },
+              
+              { title: 'Languages:', description: 'HTML/CSS, Javascript, Java, Python'},
+              { title: 'Technologies Used:', description: 'AWS, Microsoft Azure, Material Design, Bootstrap, Material UI, Angular/AngularJS, Node, npm, React, Mockplus, Codepen, RegClient, Wiresharl, Lucid chart, RUFUS, Jenkins, Git, Vistual Studio, Android Studio, Atom, Ghost, Rally, Gerrit,autoHotKey, Dropbox, JIRA, UFT, Postman, XCode' },
             ].map((skill) => (
               <div
                 key={skill.title}

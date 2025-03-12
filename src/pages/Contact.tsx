@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react'
+import { useState } from 'react'
 
 export default function Contact() {
   return (
@@ -22,25 +23,28 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center">
                     <Phone className="w-6 h-6 text-purple-400 mr-3" />
-                    <span className="text-gray-300">+1 (555) 123-4567</span>
+                    <span className="text-gray-300">+1 (585)-690-1214</span>
                   </div>
+                  
                   <div className="flex items-center">
                     <MapPin className="w-6 h-6 text-pink-400 mr-3" />
-                    <span className="text-gray-300">San Francisco, CA</span>
-                  </div>
+                    <span className="text-gray-300">Rochester, NY</span>
+                  </div>  
                 </div>
               </div>
               
               <div className="p-8 bg-gray-900/50 rounded-lg">
+           
                 <form className="space-y-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-300">
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-300 ">
                       Name
                     </label>
                     <input
                       type="text"
                       id="name"
-                      className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+                      className=" p-3 mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+                      placeholder='Enter your name' required
                     />
                   </div>
                   <div>
@@ -50,7 +54,8 @@ export default function Contact() {
                     <input
                       type="email"
                       id="email"
-                      className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+                      className="p-3  mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+                      placeholder='Enter your email' required
                     />
                   </div>
                   <div>
@@ -60,14 +65,18 @@ export default function Contact() {
                     <textarea
                       id="message"
                       rows={4}
-                      className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+                      className="p-3  mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                     ></textarea>
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-2 px-4 rounded-md hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
-                  >
-                    Send Message
+                    className="w-full bg-gradient-to-r 
+                    from-blue-500 to-purple-600 
+                    text-white py-2 px-4 rounded-md hover:from-blue-600
+                    hover:to-purple-700 transform hover:scale-105 transition-all
+                    duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 
+                    focus:ring-offset-gray-900" >
+                    Send Message 
                   </button>
                 </form>
               </div>
@@ -76,5 +85,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  )
+  ) /**End of return */
 }
