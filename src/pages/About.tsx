@@ -7,30 +7,28 @@ export default function About() {
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-8 border border-gray-700">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
-                <img
-                  src=""
-                  alt="Profile"
-                  className="rounded-lg shadow-md w-full h-auto border border-gray-700"
-                />
+            <p> Image section coming soon...</p>
               </div>
               <div>
                 <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text mb-6">About Me</h1>
                 <p className="text-gray-300 mb-6">
-                  I'm a passionate ....
+                I’m a Software Engineer with 7 years of experience in QA and software testing. I’ve earned certifications, completed my degree, and consider myself a driven, motivated, and eager learner. I’m passionate about automation, test design, and technology. When I’m not working on side projects, I enjoy spending time outdoors and staying active.
                 </p>
-                <p className="text-gray-300 mb-6">
-                  I enoy modern web technologies and have a strong foundation in b....
-            
-                </p>
+              
                 <div className="space-y-4">
                   <h2 className="text-2xl font-semibold text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text">Experience</h2>
                   <div className="border-l-4 border-blue-500 pl-4">
-                    <h3 className="font-semibold text-white">Place of work 1</h3>
-                    <p className="text-gray-400">2020 - Present</p>
+                    <h3 className="font-semibold text-white">Software Test Engineer</h3>
+                    <p className="text-gray-400">May 2022 - Present</p>
                   </div>
                   <div className="border-l-4 border-purple-500 pl-4">
-                    <h3 className="font-semibold text-white">Place of work 2</h3>
-                    <p className="text-gray-400">2018 - 2020</p>
+                    <h3 className="font-semibold text-white">Software Testing Engineer (Anrdoid & iOS)</h3>
+                    <p className="text-gray-400">April 2021 - May 2022</p>
+                  </div>
+                  <div className="border-l-4 border-blue-500 pl-4">
+                  <h3 className="font-semibold text-white">Software Quality Assurance Engineer</h3>
+                  <p className="text-gray-400">Jun 2020 - Mar 2021</p>
+                    
                   </div>
                 </div>
               </div>
