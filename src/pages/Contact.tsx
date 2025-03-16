@@ -1,7 +1,14 @@
-import { Mail, Phone, MapPin } from 'lucide-react'
-import { useState } from 'react'
+import { Mail, Phone, MapPin } from 'lucide-react';
+import { useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 
+// Creating Contact componenent 
 export default function Contact() {
+// Setting up the state for the form data 
+
+
+
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

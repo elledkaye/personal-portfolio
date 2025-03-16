@@ -21,11 +21,11 @@ export default function Projects() {
    
     {
       title:'Blog',
-      description: 'Real-time weather monitoring with interactive maps',
+      description: 'Coming soon...',
       image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000',
       github: 'https://github.com',
       demo: 'https://demo.com',
-      tags: ['React', 'OpenWeather API', 'Tailwind CSS']
+      tags: ['React','Tailwind CSS']
     }
   ]
 
